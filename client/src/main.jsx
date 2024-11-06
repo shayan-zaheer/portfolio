@@ -5,13 +5,12 @@ import "@fontsource/epilogue";
 import "@fontsource/epilogue/400.css";
 import "@fontsource/epilogue/700.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-
+import App from "./App.jsx";
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Home />,
+        element: <App />,
     },
 ]);
 

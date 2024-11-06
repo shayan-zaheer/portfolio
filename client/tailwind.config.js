@@ -6,6 +6,9 @@ export default {
             fontFamily: {
                 epilogue: ["Epilogue", "sans-serif"],
             },
+            screens: {
+                'xs': '340px',
+              },
         },
     },
     plugins: [],
