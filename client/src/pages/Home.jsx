@@ -38,7 +38,7 @@ function Home() {
                     </ul>
                 )}
             </nav>
-            <main className="flex xs:px-4 md:px-20 xs:flex-col-reverse mt-16 lg:flex-row lg:justify-around">
+            <main className="flex xs:flex-col-reverse xs:m-6 md:m-16 lg:flex-row justify-around"> {/* xs:px-4 md:px-16 lg:justify-around */}
                 <div className="relative">
                     <p className="text-[#EF6D58] mb-4 tracking-widest">
                         MODERN STUDIO
