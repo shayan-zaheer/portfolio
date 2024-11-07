@@ -23,12 +23,20 @@ function Home() {
                 </button>
                 <button
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    className="lg:hidden md:flex md:items-end border p-3 rounded-lg transition-all duration-300"
+                    className="lg:hidden md:flex relative md:items-end border p-3 rounded-lg transition-all duration-300"
                     aria-expanded={isMenuOpen}
                     aria-label="Toggle menu"
                 >
                     {isMenuOpen ? <ImCross /> : <GiHamburgerMenu />}
                 </button>
+                {isMenuOpen && (
+                    <ul className="lg:hidden bg-[#3A3B54] flex flex-col text-md gap-y-6 mt-4 p-8 rounded-md absolute top-14 right-6">
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Pricing</li>
+                        <li>Blog</li>
+                    </ul>
+                )}
             </nav>
             <main className="flex xs:px-4 md:px-20 xs:flex-col-reverse mt-16 lg:flex-row lg:justify-around">
                 <div className="relative">
