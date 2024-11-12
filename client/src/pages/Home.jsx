@@ -44,7 +44,7 @@ function Home() {
                         MODERN STUDIO
                     </p>
                     <div>
-                        <h1 className="max-md:text-5xl md:text-6xl md:w-[8em] font-bold z-20 relative">
+                        <h1 className="font-epilogue max-md:text-5xl md:text-6xl md:w-[8em] font-bold z-20 relative">
                             We're Help To Build Your Dream Project
                         </h1>
                         <img
