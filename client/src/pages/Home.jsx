@@ -7,7 +7,7 @@ function Home() {
 
     return (
         <div className="overflow-x-hidden min-h-screen py-4 text-white bg-[#28293E]">
-            <nav className="flex items-center lg:justify-around max-lg:justify-between max-lg:mx-6 font-epilogue">
+            <nav className="flex items-center lg:justify-around max-lg:justify-between max-lg:mx-6 lg:mx-10 font-epilogue">
                 <div className="flex items-end justify-end gap-x-2">
                     <img src="./logo.png" alt="" className="w-10" />
                     <h4 className="font-bold text-2xl">IdeaFlux</h4>
@@ -38,7 +38,7 @@ function Home() {
                     </ul>
                 )}
             </nav>
-            <main className="flex max-md:flex-col-reverse max-md:m-6 md:m-16 lg:flex-row justify-around">
+            <main className="flex max-lg:flex-col-reverse max-md:m-6 md:m-16 lg:flex-row justify-around">
                 <div className="relative">
                     <p className="text-[#EF6D58] mb-4 tracking-widest">
                         MODERN STUDIO
