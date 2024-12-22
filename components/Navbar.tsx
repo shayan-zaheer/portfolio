@@ -17,8 +17,8 @@ function Navbar() {
                     </div>
                 </Link>
                 <ul className="hidden lg:flex text-md gap-x-24">
+                    <Link href="#home"><li>Home</li></Link>
                     <Link href="#about"><li>About</li></Link>
-                    <Link href="#services"><li>Services</li></Link>
                     <li>Pricing</li>
                     <li>Blog</li>
                 </ul>
@@ -34,7 +34,7 @@ function Navbar() {
                     {isMenuOpen ? <ImCross /> : <GiHamburgerMenu />}
                 </button>
                 {isMenuOpen && (
-                    <ul className="lg:hidden bg-[#3A3B54] flex flex-col text-md gap-y-6 mt-4 p-8 rounded-md absolute top-14 right-6">
+                    <ul className="lg:hidden bg-[#3A3B54] flex flex-col text-md gap-y-6 mt-4  p-8 rounded-md absolute top-14 right-6">
                         <li>About</li>
                         <li>Services</li>
                         <li>Pricing</li>
