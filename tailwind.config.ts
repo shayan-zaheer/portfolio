@@ -14,6 +14,9 @@ export default {
       },
       fontFamily: {
         "epilogue": ["var(--font-epilogue)"]
+      },
+      screens: {
+        'break': '1280px'
       }
     },
   },

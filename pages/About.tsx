@@ -3,7 +3,7 @@ import TextBox from "@/components/TextBox";
 
 function About() {
     return (
-        <div className="min-h-screen bg-[#FDF0E9] font-epilogue">
+        <div className="overflow-x-hidden py-4 bg-[#FDF0E9] font-epilogue">
             <main className="flex flex-col ">
                 <div className="mt-12 space-y-8 flex flex-col ">
                     <div className="flex justify-center">
@@ -23,8 +23,8 @@ function About() {
                     </div>
                 </div>
 
-                <div className="flex max-lg:flex-col max-md:m-6 md:m-16 lg:flex-row justify-evenly mt-4">
-                    <img src="/hero2.png" className="size-auto" alt="" />
+                <div className="flex max-lg:flex-col max-lg:m-6 lg:m-16 gap-x-10 lg:flex-row justify-center">
+                    <img src="/hero2.png" className="max-w-[80%] max-h-[80%]" alt="" />
                     <div className="mt-20 ">
                         <p className="text-[#EF6D58] mb-4 tracking-widest">
                             ABOUT
@@ -46,9 +46,19 @@ function About() {
                     </div>
                 </div>
                 <div className="flex max-md:flex-col md:flex-row justify-center mx-4">
-                  <DetailBox number={42} text="Years of experience" sign="%" roundL />
-                  <DetailBox number={73} text="Agency members" sign="+" noRound />
-                  <DetailBox number={5.000} text="Projects complete" roundR />
+                    <DetailBox
+                        number={42}
+                        text="Years of experience"
+                        sign="%"
+                        roundL
+                    />
+                    <DetailBox
+                        number={73}
+                        text="Agency members"
+                        sign="+"
+                        noRound
+                    />
+                    <DetailBox number={5.0} text="Projects complete" roundR />
                 </div>
                 <div className="flex max-lg:flex-col max-md:m-6 md:mx-16 lg:flex-row justify-evenly mt-6">
                     <div className="mt-10 ">
@@ -59,17 +69,32 @@ function About() {
                             Making Your Projects Look Awesome
                         </h1>
                         <p className="text-[#391400] mt-8 line-clamp-2 md:w-[26em] ">
-                            Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.
+                            Technical skills, design, business understanding,
+                            ability to put themselves in the merchant's shoes.
                         </p>
                         <button className="mt-8 bg-none  text-[#391400]">
                             Read More
                         </button>
                     </div>
-                    <div className="max-md:mt-8 md:mt-24 ">
-                        <TextBox number={1} text="Full service range including" />
-                        <TextBox number={2} text="Technical skills, design, business" />
-                        <TextBox number={3} text="Themsleves in the merchant's" />
+                    <div className="max-lg:mt-8 lg:mt-20 ">
+                        <TextBox
+                            number={1}
+                            text="Full service range including"
+                            extra
+                        />
+                        <TextBox
+                            number={2}
+                            text="Technical skills, design, business"
+                        />
+                        <TextBox
+                            number={3}
+                            text="Themsleves in the merchant's"
+                        />
                     </div>
+                </div>
+
+                <div className="flex justify-center mt-6">
+                    <hr className="h-px bg-[#F3D1BF] border-0 w-[80%] " />
                 </div>
             </main>
         </div>
