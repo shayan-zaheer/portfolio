@@ -44,13 +44,13 @@ function About() {
                         </button>
                     </div>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex max-md:flex-col md:flex-row justify-center mx-4">
                   <DetailBox number={42} text="Years of experience" sign="%" roundL />
                   <DetailBox number={73} text="Agency members" sign="+" noRound />
                   <DetailBox number={5.000} text="Projects complete" roundR />
                 </div>
+
             </main>
-            <p>sdgd</p>
         </div>
     );
 }
