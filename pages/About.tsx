@@ -1,4 +1,5 @@
 import DetailBox from "@/components/DetailBox";
+import TextBox from "@/components/TextBox";
 
 function About() {
     return (
@@ -49,7 +50,27 @@ function About() {
                   <DetailBox number={73} text="Agency members" sign="+" noRound />
                   <DetailBox number={5.000} text="Projects complete" roundR />
                 </div>
-
+                <div className="flex max-lg:flex-col max-md:m-6 md:mx-16 lg:flex-row justify-evenly mt-6">
+                    <div className="mt-10 ">
+                        <p className="text-[#EF6D58] mb-4 tracking-widest">
+                            HOW WE WORK
+                        </p>
+                        <h1 className="max-md:text-5xl md:text-6xl md:w-[8em] text-[#391400] font-bold">
+                            Making Your Projects Look Awesome
+                        </h1>
+                        <p className="text-[#391400] mt-8 line-clamp-2 md:w-[26em] ">
+                            Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.
+                        </p>
+                        <button className="mt-8 bg-none  text-[#391400]">
+                            Read More
+                        </button>
+                    </div>
+                    <div className="max-md:mt-8 md:mt-24 ">
+                        <TextBox number={1} text="Full service range including" />
+                        <TextBox number={2} text="Technical skills, design, business" />
+                        <TextBox number={3} text="Themsleves in the merchant's" />
+                    </div>
+                </div>
             </main>
         </div>
     );

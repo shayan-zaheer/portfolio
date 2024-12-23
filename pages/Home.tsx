@@ -5,7 +5,7 @@ function Home() {
         <div className="overflow-x-hidden min-h-screen py-4 text-white bg-[#28293E] font-epilogue">
             <Navbar />
             <main className="flex max-lg:flex-col-reverse max-md:m-6 md:m-16 lg:flex-row justify-around">
-                <div className="relative">
+                <div className="relative mt-8">
                     <p className="text-[#EF6D58] mb-4 tracking-widest">
                         MODERN STUDIO
                     </p>
