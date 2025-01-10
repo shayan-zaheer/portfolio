@@ -23,9 +23,9 @@ function About() {
                     </div>
                 </div>
 
-                <div className="flex max-lg:flex-col max-lg:m-6 lg:m-16 gap-x-10 lg:flex-row justify-center">
-                    <img src="/hero2.png" className="max-w-[80%] max-h-[80%]" alt="" />
-                    <div className="mt-20 ">
+                <div className="flex max-lg:flex-col mx-10 max-lg:m-6 lg:m-16 lg:flex-row justify-around gap-x-12">
+                    <img src="/hero2.png" className="mx-auto max-lg:flex max-lg:justify-center max-lg:items-center" alt="" />
+                    <div className="mt-20 mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center">
                         <p className="text-[#EF6D58] mb-4 tracking-widest">
                             ABOUT
                         </p>
@@ -35,12 +35,12 @@ function About() {
                         <p className="text-[#391400] mt-8 line-clamp-2 text-lg">
                             Provides a full service range
                         </p>
-                        <p className="text-[rgba(57,20,0,0.64)] mt-8 md:w-[26em]">
+                        <p className="text-[rgba(57,20,0,0.64)] mt-8">
                             Ability to put themselves in the merchant's shoes.
-                            It is meant to partner on the long run, and work as
-                            an extension of the merchant's team.
+                            It<br /> is meant to partner on the long run, and work as
+                            an<br /> extension of the merchant's team.
                         </p>
-                        <button className="mt-8 bg-white rounded-lg px-8 py-3 text-[#391400] font-bold shadow-lg">
+                        <button className="mt-8 bg-white rounded-lg px-8 py-3 text-[#391400] font-bold shadow-lg mx-auto max-lg:flex max-lg:justify-center max-lg:items-center">
                             ABOUT US
                         </button>
                     </div>
@@ -60,7 +60,7 @@ function About() {
                     />
                     <DetailBox number={5.0} text="Projects complete" roundR />
                 </div>
-                <div className="flex max-lg:flex-col max-md:m-6 md:mx-16 lg:flex-row justify-evenly mt-6">
+                <div className="flex max-lg:flex-col max-md:m-6 md:mx-16 lg:flex-row justify-evenly mt-6 ">
                     <div className="mt-10 ">
                         <p className="text-[#EF6D58] mb-4 tracking-widest">
                             HOW WE WORK
@@ -94,7 +94,7 @@ function About() {
                 </div>
 
                 <div className="flex justify-center mt-6">
-                    <hr className="h-px bg-[#F3D1BF] border-0 w-[80%] " />
+                    <hr className="h-px bg-[#F3D1BF] border-0 w-[75%] " />
                 </div>
             </main>
         </div>
@@ -102,3 +102,4 @@ function About() {
 }
 
 export default About;
+
