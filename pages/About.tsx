@@ -25,12 +25,12 @@ function About() {
 
                 <div className="flex max-lg:flex-col mx-10 max-lg:m-6 lg:m-16 lg:flex-row justify-around gap-x-12">
                     <img src="/hero2.png" className="mx-auto max-lg:flex max-lg:justify-center max-lg:items-center" alt="" />
-                    <div className="mt-20 mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center">
+                    <div className="mt-20 max-lg:mx-auto max-lg:flex-col max-lg:justify-center max-lg:items-center">
                         <p className="text-[#EF6D58] mb-4 tracking-widest">
                             ABOUT
                         </p>
-                        <h1 className="max-md:text-5xl md:text-6xl md:w-[8em] text-[#391400] font-bold">
-                            An Experience Design Agency
+                        <h1 className="max-md:text-5xl md:text-6xl text-[#391400] font-bold">
+                            An Experience<br /> Design Agency
                         </h1>
                         <p className="text-[#391400] mt-8 line-clamp-2 text-lg">
                             Provides a full service range
@@ -61,22 +61,22 @@ function About() {
                     <DetailBox number={5.0} text="Projects complete" roundR />
                 </div>
                 <div className="flex max-lg:flex-col max-md:m-6 md:mx-16 lg:flex-row justify-evenly mt-6 ">
-                    <div className="mt-10 ">
+                    <div className="mt-10 mx-auto">
                         <p className="text-[#EF6D58] mb-4 tracking-widest">
                             HOW WE WORK
                         </p>
-                        <h1 className="max-md:text-5xl md:text-6xl md:w-[8em] text-[#391400] font-bold">
-                            Making Your Projects Look Awesome
+                        <h1 className="max-md:text-5xl md:text-6xl text-[#391400] font-bold">
+                            Making Your<br /> Projects Look<br /> Awesome
                         </h1>
-                        <p className="text-[#391400] mt-8 line-clamp-2 md:w-[26em] ">
-                            Technical skills, design, business understanding,
+                        <p className="text-[#391400] mt-8 line-clamp-2">
+                            Technical skills, design, business understanding,<br />
                             ability to put themselves in the merchant's shoes.
                         </p>
                         <button className="mt-8 bg-none  text-[#391400]">
                             Read More
                         </button>
                     </div>
-                    <div className="max-lg:mt-8 lg:mt-20 ">
+                    <div className="max-lg:mt-8 lg:mt-20 mx-auto">
                         <TextBox
                             number={1}
                             text="Full service range including"
