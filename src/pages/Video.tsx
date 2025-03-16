@@ -22,17 +22,16 @@ function Video() {
 
                 <div className="flex flex-col justify-center">
                     <p className="text-[#EF6D58] mb-4 tracking-widest">
-                        VIDEO REEL
+                        PROJECT SHOWCASE
                     </p>
                     <h1 className="max-md:text-5xl md:text-6xl md:w-[8em] text-[#391400] font-bold">
-                        Unlock The Greatest Value Possible
+                        Bringing Your Ideas to Life
                     </h1>
                     <p className="text-[rgba(57,20,0,0.64)] mt-8 md:w-[30em]">
-                        Design, business understanding, ability to put
-                        themselves in the merchant's shoes meant to partner.
+                        Full stack development expertise turning concepts into
+                        functional, beautiful web applications
                     </p>
                 </div>
-
             </div>
         </div>
     );

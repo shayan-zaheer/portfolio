@@ -1,8 +1,8 @@
-import Home from "@/pages/Home";
-import About from "@/pages/About";
-import Video from "@/pages/Video";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Video from "./pages/Video";
 
-export default function Page() {
+function App() {
     return (
         <>       
             <section id="home">
@@ -17,3 +17,5 @@ export default function Page() {
         </>
     );
 }
+
+export default App;

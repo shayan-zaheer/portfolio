@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@import '@fontsource/epilogue';
+
+@layer utilities {
+  .font-epilogue {
+    font-family: 'Epilogue', sans-serif;
+  }
+}
